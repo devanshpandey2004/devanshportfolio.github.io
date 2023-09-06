@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.contact{
+    height: 130vh;
+    width: 98vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #abeae6;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#contact1{
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color : black;
+    font-size: 10vh;
+    border: 0.1vh solid rgba(254, 130, 47, 0.791);
+}
+
+#contact2{
+    height: 70vh;
+    width: 60vw;
+    background-color: white;
+    border: 0.1vh solid rgba(254, 130, 47, 0.791);
+    padding: 5vh;
+    overflow: auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+
+}
+#name{
+    display: flex;
+    flex-direction:row ;
+}
+#emailcall{
+    display: flex;
+    flex-direction:row ;
+}
+#name1{
+    display: flex;
+}
+#name2{
+    display: flex;
+}
+#emailcall1{
+    display: flex;
+}
+#emailcall2{
+    display: flex;
+}
+#msg{
+    overflow-y: auto;
+}
+#send{
+    align-self: center;
+   
+}
+button{
+    width: 8vh;
+    height: 5vh;
+    background-color: #1f1fe6;
+    color: white;
+    border: 0.1vh solid black;
+    border-radius: 50%;
+}
+button:hover{
+    background-color: rgb(143, 143, 228);
+}
+@media (max-width:980px) and (min-width:680px){
+    #contact2{
+        width: 90%;
+    }
+}
+@media (max-width:680px) and (min-width:615px){
+    #contact2{
+        width: 99%;
+    }
+    #contact1{
+        height: 17vh;
+        font-size: 35px;
+    }
+}
+@media (max-width:615px){
+    #contact2{
+        width: 99%;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+    #contact1{
+        height: 13.5vh;
+        font-size: 29px;
+    }
+    #name{
+        flex-direction: column;
+    }
+    #emailcall{
+        flex-direction: column;
+    }
+    #msg{
+        width: 200px;
+    }
+    #subject{
+        width: 200px;
+    }
+    
+}

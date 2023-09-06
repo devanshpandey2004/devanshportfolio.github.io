@@ -1,0 +1,252 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    font-size: 1.3vw;
+}
+.container{
+    background-color: #abeae6;
+    height: 280vh;
+    width: 96vw;
+    margin: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.resume{
+    height: 85vh;
+    width: 60vw;
+    border: 0.1vh solid rgba(254, 130, 47, 0.791);
+    padding: 5%;
+    background-color: white;
+
+}
+.resume h2 b{
+    font-size:2.4vw ;
+}
+#resume1{
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+   
+    
+}
+#resumetext{
+    font-size:10vh ;
+}
+#resume2{
+    width:60vw ;
+    height:60vh ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#resume3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+table{
+    width: 90%;
+    height: 75%;
+}
+#resume4{
+    width:60vw ;
+    height:60vh ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+   
+}
+.resume4part1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    overflow: hidden;  
+}
+.resume4part2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    overflow: hidden;
+    padding-top: 10%;
+}
+@media (max-width:1050px) and (memin-width:700px){
+    .container{
+        height: 200vh;
+    }
+    .resume{
+        width: 90vw;
+        height: 75vh;
+    }
+    #resume2{
+        height: 40vh;
+    }
+    #resume4{
+        height: 40vh;
+    }
+    table{
+        width: 100%;
+    }
+    #resume3{
+        width: 80vw;
+    }
+}
+@media (max-width:700px) and (min-width: 480px){
+    *{
+        font-size: 10px;
+    }
+    .container{
+        height: 200vh;
+    }
+    .resume{
+        width: 90%;
+        height: 75vh;
+    }
+    #resume2{
+        height: 30vh;
+        width: 80%;
+    }
+    #resume4{
+        height: 30vh;
+        width: 80%;
+    }
+    table{
+        width: 100%;
+    
+    }
+    #resume3{
+        width: 90vw;
+    }
+    #resume4part2{
+        padding: 40px;
+    }
+}
+@media (max-width:480px){
+    *{
+        font-size: 15px;
+    }
+    .container{
+        height: 180vh;
+    }
+    .resume h2 b{
+        font-size:20px ;
+    }
+   #resumetext{
+    font-size: 36px ;
+   }
+   #resume1{
+    height: 15vh;
+   }
+    .resume{
+        width: 98%;
+        height: 60vh;
+    }
+    #resume2{
+        height: 30vh;
+        width: 98%;
+    }
+    #resume4{
+        height: 28vh;
+        width: 98%;
+    }
+    table{
+        width: 100%;
+    }
+
+    #resume3{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+    #resume4part2{
+        padding: 20px;
+    }
+    }
+    @media (max-width:480px){
+        *{
+            font-size: 10px;
+        }
+        .container{
+            height: 180vh;
+            padding-left: 0;
+            padding-right: 0;
+            margin-left: 0;
+            margin-right: 0;
+        }
+        .resume h2 b{
+            font-size:16px ;
+        }
+       #resumetext{
+        font-size: 29px ;
+       }
+       #resume1{
+        height: 13.5vh;
+       }
+        .resume{
+            width: 98%;
+            height: 60vh;
+        }
+        #resume2{
+            height: 30vh;
+            width: 98%;
+        }
+        #resume4{
+            height: 60vh;
+            width: 98%;
+            display: flex;
+            flex-direction: column;
+            overflow: auto;
+        }
+        table{
+            width: 100%;
+            margin-left: 0;
+            margin-right:0 ;
+            padding-left: 0;
+            padding-right: 0;
+            overflow: auto;
+            align-self: flex-end;
+            overflow: visible;
+        }
+        tr{
+            margin-left: 0;
+            margin-right:0 ;
+            padding-left: 0;
+            padding-right: 0;
+        }
+        td{
+            margin-left: 0;
+            margin-right:0 ;
+            padding-left: 0;
+            padding-right: 0;
+        }
+    
+        #resume3{
+            width: 100%;
+            padding-left: 0;
+            padding-right: 0;
+            margin-left: 0;
+            margin-right: 0;
+            display: flex;
+
+    
+        }
+        #resume4part2{
+            padding: 20px;
+        }
+    }
